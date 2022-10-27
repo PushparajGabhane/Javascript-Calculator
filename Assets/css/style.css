@@ -1,0 +1,77 @@
+h1 {
+  padding: 23px;
+  color: red;
+  width: 40%;
+  margin: auto;
+  text-align: center;
+  background-color: rgb(223, 238, 20);
+}
+
+.main {
+  margin: auto;
+  width: 40%;
+  border: 2px solid orange;
+  padding: 20px;
+  background-color: aqua;
+}
+
+.display {
+  width: 100%;
+}
+
+#input {
+  width: 90%;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px gray;
+  margin-bottom: 20px;
+  padding: 1% 5%;
+  background-color:bisque;
+  font-size: 15px;
+}
+
+.inputs {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 15px;
+}
+
+.inputs button {
+  height: 40px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  font-size: 30px;
+}
+
+.calculate {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  margin-top: 20px;
+  column-gap: 15px;
+}
+
+.calculate #ans{
+  height: 40px;
+  border-radius: 10px;
+  background-color: green;
+  color: white;
+  font-size: 30px;
+}
+
+.calculate #clr{
+  height: 40px;
+  border-radius: 10px;
+  background-color: red;
+  color: white;
+  font-size: 30px;
+}
+
+.calculate #del{
+  height: 40px;
+  border-radius: 10px;
+  background-color: gray;
+  color: white;
+  font-size: 30px;
+}
